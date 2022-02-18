@@ -1,0 +1,41 @@
+.user__list {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.post__data {
+    border: 1px solid tomato;
+    padding: 5px;
+}
+
+.title__post {
+    font-size: 20px;
+    color: teal;
+}
+
+.title__desc {
+    font-size: 20px;
+
+}
+
+.post__body {
+    width: 80%;
+}
+
+.post__body__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.post__body__wrap button {
+    background-color: white;
+    color: tomato;
+    border: 2px solid tomato;
+    padding: 10px;
+}
+
+.post__body__wrap button:hover {
+    background-color: tomato;
+    color: white;
+    cursor: pointer;
+}
